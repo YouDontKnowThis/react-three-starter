@@ -65,4 +65,7 @@ const Navbar = styled.div`
       }
     }
   }
+  @media screen and (max-width: 426px) {
+    display: none;
+  }
 `;

@@ -33,4 +33,7 @@ const VRContainer = styled.div`
 const MainContainer = styled.div`
   width: 70%;
   margin: auto;
+  @media screen and (max-width: 426px) {
+    width: 95%;
+  }
 `;

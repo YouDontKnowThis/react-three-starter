@@ -36,6 +36,17 @@ const LandingContainer = styled.div`
     font-weight: 300;
     letter-spacing: 5px;
   }
+
+  @media screen and (max-width: 426px) {
+    padding: 0 20px;
+    h1 {
+      font-size: 4em;
+      letter-spacing: 5px;
+    }
+    p {
+      font-size: 1em;
+    }
+  }
 `;
 
 const Button = styled.button`
@@ -52,7 +63,15 @@ const Button = styled.button`
   cursor: pointer;
   transition: all 0.4s ease;
   font-size: 16px;
+  outline: none;
   &:hover {
     background-color: rgba(255, 255, 255, 0.3);
+  }
+  &:active {
+    outline: none;
+  }
+  @media screen and (max-width: 426px) {
+    padding: 10px 30px;
+    font-size: 14px;
   }
 `;
